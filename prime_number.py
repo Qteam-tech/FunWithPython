@@ -6,7 +6,9 @@ def checkPrime(n):
             prime = False
             break
     return prime
+
 prime_count = 0
+
 for i in range(1,1001):
     if checkPrime(i):
         prime_count = prime_count +1

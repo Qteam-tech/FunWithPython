@@ -9,7 +9,7 @@ def checkPrime(n):
 
 prime_count = 0
 
-for i in range(1,1001):
+for i in range(2,11):
     if checkPrime(i):
         prime_count = prime_count +1
         print(i,'is prime number.')
